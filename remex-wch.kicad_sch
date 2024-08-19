@@ -9631,8 +9631,16 @@
 		(uuid "50ba2d0d-15fc-4cef-b386-08e99860b6eb")
 	)
 	(no_connect
+		(at 50.8 144.78)
+		(uuid "51824769-84ba-4e78-af0c-0b500cd76c3a")
+	)
+	(no_connect
 		(at 38.1 30.48)
 		(uuid "a01cde93-b51d-4cfc-83ad-6e9007800aeb")
+	)
+	(no_connect
+		(at 50.8 142.24)
+		(uuid "fe85877f-1c36-434d-a359-3c55003c5e55")
 	)
 	(wire
 		(pts
@@ -9936,7 +9944,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 88.9) (xy 93.98 88.9)
+			(xy 76.2 73.66) (xy 66.04 73.66)
 		)
 		(stroke
 			(width 0)
@@ -10126,7 +10134,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 88.9) (xy 88.9 88.9)
+			(xy 50.8 73.66) (xy 60.96 73.66)
 		)
 		(stroke
 			(width 0)
@@ -10426,7 +10434,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 91.44) (xy 88.9 91.44)
+			(xy 50.8 76.2) (xy 60.96 76.2)
 		)
 		(stroke
 			(width 0)
@@ -11306,7 +11314,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 91.44) (xy 93.98 91.44)
+			(xy 76.2 76.2) (xy 66.04 76.2)
 		)
 		(stroke
 			(width 0)
@@ -12829,7 +12837,7 @@
 		(uuid "891f052c-190f-4226-9876-52ca71928b04")
 	)
 	(label "I2S_MCK"
-		(at 78.74 88.9 0)
+		(at 50.8 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12983,7 +12991,7 @@
 		(uuid "a081e84f-6545-42ae-a456-ae31cc53e2fc")
 	)
 	(label "I2S_WS"
-		(at 78.74 91.44 0)
+		(at 50.8 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13060,7 +13068,7 @@
 		(uuid "ab4ea8c2-62e3-4a43-8379-a31b5d597319")
 	)
 	(label "EXT_D5"
-		(at 104.14 91.44 180)
+		(at 76.2 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13401,7 +13409,7 @@
 		(uuid "e6677c3c-0964-4c20-a0b4-bc6251538218")
 	)
 	(label "EXT_D6"
-		(at 104.14 88.9 180)
+		(at 76.2 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13732,15 +13740,15 @@
 		(dnp no)
 		(uuid "18653dc0-9a8b-4bd7-b4f5-318449f2a6ca")
 		(property "Reference" "Y2"
-			(at 298.45 47.7198 90)
+			(at 316.23 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "25 MHz 10 pF"
-			(at 298.45 50.2598 90)
+		(property "Value" "25 MHz 10 pF X322525MOB4SI"
+			(at 294.386 51.562 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17409,7 +17417,7 @@
 	)
 	(symbol
 		(lib_id "Device:NetTie_2")
-		(at 91.44 91.44 0)
+		(at 63.5 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -17417,7 +17425,7 @@
 		(dnp no)
 		(uuid "a9e4d07a-5896-46e8-ac3c-9adbf37da36f")
 		(property "Reference" "NT2"
-			(at 91.44 90.424 0)
+			(at 63.5 75.184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17425,7 +17433,7 @@
 			)
 		)
 		(property "Value" "NetTie_2"
-			(at 91.44 88.9 0)
+			(at 63.5 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17434,7 +17442,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 91.44 0)
+			(at 63.5 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17443,7 +17451,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 91.44 0)
+			(at 63.5 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17452,7 +17460,7 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
-			(at 91.44 91.44 0)
+			(at 63.5 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17461,7 +17469,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 91.44 91.44 0)
+			(at 63.5 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17486,7 +17494,7 @@
 	)
 	(symbol
 		(lib_id "Device:NetTie_2")
-		(at 91.44 88.9 0)
+		(at 63.5 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -17494,7 +17502,7 @@
 		(dnp no)
 		(uuid "b0334866-2ce7-4366-b769-3181a519c72c")
 		(property "Reference" "NT1"
-			(at 91.44 87.884 0)
+			(at 63.5 72.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17502,7 +17510,7 @@
 			)
 		)
 		(property "Value" "NetTie_2"
-			(at 91.44 86.36 0)
+			(at 63.5 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17511,7 +17519,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 88.9 0)
+			(at 63.5 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17520,7 +17528,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 88.9 0)
+			(at 63.5 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17529,7 +17537,7 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
-			(at 91.44 88.9 0)
+			(at 63.5 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17538,7 +17546,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 91.44 88.9 0)
+			(at 63.5 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
