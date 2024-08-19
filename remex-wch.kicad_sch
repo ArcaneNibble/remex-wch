@@ -4679,6 +4679,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 73.66) (xy 243.84 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04d43011-ee02-4f2e-96a4-4e58507a250d")
+	)
+	(wire
+		(pts
 			(xy 66.04 53.34) (xy 88.9 53.34)
 		)
 		(stroke
@@ -5739,6 +5749,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 71.12) (xy 243.84 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8f1fff8-c548-4228-a530-684f34fb4585")
+	)
+	(wire
+		(pts
 			(xy 167.64 48.26) (xy 190.5 48.26)
 		)
 		(stroke
@@ -5921,6 +5941,17 @@
 		)
 		(uuid "3f0d767b-06d3-4e0d-aa14-c880264babe7")
 	)
+	(label "INT_I2C_SDA"
+		(at 167.64 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "43ccd7d8-19a2-4544-9a7b-fb10001950ac")
+	)
 	(label "EXT_RX"
 		(at 50.8 58.42 180)
 		(fields_autoplaced yes)
@@ -5944,7 +5975,7 @@
 		(uuid "4e4a0d6d-5685-43e3-9c8d-c49aa8ab4a27")
 	)
 	(label "EXT_D12"
-		(at 243.84 106.68 180)
+		(at 243.84 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6076,13 +6107,13 @@
 		(uuid "77775ecb-90e1-4c47-8bfe-5726fb391e98")
 	)
 	(label "EXT_TX"
-		(at 167.64 104.14 0)
+		(at 243.84 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "7938ece9-72f5-4ab5-b6af-3370a52241b0")
 	)
@@ -6272,6 +6303,17 @@
 			(justify left bottom)
 		)
 		(uuid "9b1ff630-70fc-4901-9715-1388271206c5")
+	)
+	(label "INT_I2C_SCL"
+		(at 167.64 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9c78ee43-6447-4c0e-997f-aa3094cd6ed4")
 	)
 	(label "EXT_A1"
 		(at 167.64 58.42 0)
@@ -6516,7 +6558,7 @@
 		(uuid "de701da6-d3d9-4d20-a84e-5be495aebe0a")
 	)
 	(label "EXT_D13"
-		(at 243.84 109.22 180)
+		(at 243.84 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6571,13 +6613,13 @@
 		(uuid "e9aa4da8-61f4-40fd-97b3-149af8081ced")
 	)
 	(label "EXT_RX"
-		(at 167.64 106.68 0)
+		(at 243.84 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "ead012a8-2aa5-4a50-b10f-eec7591eaf0a")
 	)
@@ -6613,81 +6655,6 @@
 			(justify right bottom)
 		)
 		(uuid "fa37d7a2-5e5a-4498-ba82-9bdb76ae0039")
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 220.98 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "054e2d88-010e-4841-a132-9a7acc3cee27")
-		(property "Reference" "TP2"
-			(at 222.25 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PC6"
-			(at 227.076 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 226.06 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 226.06 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 220.98 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 220.98 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "df3df5de-47c7-42a2-a056-de78af96aa9a")
-		)
-		(instances
-			(project "remex-wch"
-				(path "/7d32bce9-f080-4919-9f98-0650ab404c15"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -7748,81 +7715,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 220.98 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "95c7e366-5448-4e85-8761-4c2576df5448")
-		(property "Reference" "TP3"
-			(at 222.25 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PC7"
-			(at 227.076 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 226.06 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 226.06 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 220.98 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 220.98 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6ab8c4cb-cbe9-4896-b590-7a6dd5ba8953")
-		)
-		(instances
-			(project "remex-wch"
-				(path "/7d32bce9-f080-4919-9f98-0650ab404c15"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 205.74 22.86 0)
 		(unit 1)
@@ -8113,7 +8005,7 @@
 		(at 220.98 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8535,7 +8427,7 @@
 		(at 220.98 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d284d223-2a19-4b8e-af30-e2048dc59416")
