@@ -25222,7 +25222,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "parts:microSD_SHOU_HAN_H1.8"
 			(at 417.83 195.58 0)
 			(effects
 				(font
