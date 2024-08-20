@@ -12910,6 +12910,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 45.72) (xy 101.6 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "690f8a18-9888-4f43-bc78-892ec349f30e")
+	)
+	(wire
+		(pts
 			(xy 114.3 228.6) (xy 91.44 228.6)
 		)
 		(stroke
@@ -13057,6 +13067,16 @@
 			(type default)
 		)
 		(uuid "7a725ffe-d995-496e-bc83-9dc99f67e1fe")
+	)
+	(wire
+		(pts
+			(xy 330.2 157.48) (xy 342.9 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7acc96fc-2c99-45b0-85c1-17cb65b76390")
 	)
 	(polyline
 		(pts
@@ -13248,6 +13268,16 @@
 		)
 		(uuid "900e540f-4e94-4cb2-82f1-952e1dd0dba4")
 	)
+	(polyline
+		(pts
+			(xy 345.44 152.4) (xy 345.44 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "901d9129-6b85-4935-9187-6c01e5b31426")
+	)
 	(wire
 		(pts
 			(xy 223.52 193.04) (xy 241.3 193.04)
@@ -13287,6 +13317,16 @@
 			(type default)
 		)
 		(uuid "9468886b-e5ee-47ee-b2e2-d813b6ff076d")
+	)
+	(polyline
+		(pts
+			(xy 320.04 152.4) (xy 345.44 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94e3fa35-830e-4009-a6ff-969dddfd4159")
 	)
 	(wire
 		(pts
@@ -14798,6 +14838,16 @@
 		)
 		(uuid "9e00c67b-e5f6-4611-b6b8-8ca943f50d88")
 	)
+	(text "this pin is BOOT1\nmake very sure it is\nlow when powering up"
+		(exclude_from_sim no)
+		(at 332.486 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a376961f-8c8f-4cb3-8a1f-718dccc81148")
+	)
 	(text "do stop PLL"
 		(exclude_from_sim no)
 		(at 34.29 258.064 0)
@@ -15132,6 +15182,17 @@
 			(justify right bottom)
 		)
 		(uuid "34b50e02-04e8-4aa2-a1e5-f84168fca523")
+	)
+	(label "EXT_D13"
+		(at 342.9 157.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "34d680af-30b1-43d1-9946-dd5e8467fe3b")
 	)
 	(label "ETH_MDI0+"
 		(at 198.12 208.28 180)
@@ -16377,13 +16438,13 @@
 		(uuid "de701da6-d3d9-4d20-a84e-5be495aebe0a")
 	)
 	(label "EXT_D13"
-		(at 375.92 73.66 180)
+		(at 299.72 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "e290a631-788e-413e-87d0-8c5d939ad6cc")
 	)
@@ -16530,6 +16591,17 @@
 		)
 		(uuid "ef031c1e-8c8b-4c9c-924b-82f2d0d04864")
 	)
+	(label "~{AUX_INT}"
+		(at 114.3 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f152918f-56b5-4d0d-8d3d-ff00b655b55e")
+	)
 	(label "INT_I2C_SDA"
 		(at 114.3 173.99 180)
 		(fields_autoplaced yes)
@@ -16564,13 +16636,13 @@
 		(uuid "f7c791a4-39eb-4dc3-9244-ffe1ef1a67c2")
 	)
 	(label "EXT_D9"
-		(at 299.72 88.9 0)
+		(at 375.92 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "f7e04c19-a60c-4828-b8e2-7005ac234305")
 	)
@@ -17901,6 +17973,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 101.6 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20415f59-bae9-4c8f-8df3-1636ef7b28ba")
+		(property "Reference" "#PWR066"
+			(at 101.6 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 101.6 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 101.6 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e02000ae-9be4-4bcc-9889-d892e68fa9c1")
+		)
+		(instances
+			(project "remex-wch"
+				(path "/7d32bce9-f080-4919-9f98-0650ab404c15"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 88.9 168.91 0)
 		(mirror y)
@@ -18974,6 +19112,85 @@
 			(project "remex-wch"
 				(path "/7d32bce9-f080-4919-9f98-0650ab404c15"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 101.6 43.18 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a6564b1-ac4f-4a0b-bfae-2e04c87ac0aa")
+		(property "Reference" "R27"
+			(at 99.06 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 99.06 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 101.6 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 101.6 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 101.6 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1f48a388-f3a8-45f7-ab26-0baf16501240")
+		)
+		(pin "1"
+			(uuid "447d2bbc-aa1b-49cd-bd97-6cf768a1e1bb")
+		)
+		(instances
+			(project "remex-wch"
+				(path "/7d32bce9-f080-4919-9f98-0650ab404c15"
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -25107,6 +25324,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 330.2 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d320472f-cbd1-4cd6-bfe7-4ca18d12a020")
+		(property "Reference" "#PWR067"
+			(at 330.2 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 330.2 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 330.2 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 330.2 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 330.2 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81294161-582e-42cf-b97e-5f6fe7c8a2dd")
+		)
+		(instances
+			(project "remex-wch"
+				(path "/7d32bce9-f080-4919-9f98-0650ab404c15"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 25.4 264.16 0)
 		(unit 1)
@@ -26227,6 +26510,84 @@
 			(project "remex-wch"
 				(path "/7d32bce9-f080-4919-9f98-0650ab404c15"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 330.2 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5b44981-bea7-4830-97f7-dcdd5ba4b20b")
+		(property "Reference" "R28"
+			(at 332.74 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 332.74 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 330.2 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 330.2 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 330.2 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 330.2 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b461edd3-5c11-4ba8-b62e-c39910f58b1b")
+		)
+		(pin "1"
+			(uuid "81dab1c9-73a9-4e21-842f-ee01f4e1196a")
+		)
+		(instances
+			(project "remex-wch"
+				(path "/7d32bce9-f080-4919-9f98-0650ab404c15"
+					(reference "R28")
 					(unit 1)
 				)
 			)
