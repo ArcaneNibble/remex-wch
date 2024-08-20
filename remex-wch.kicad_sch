@@ -19510,7 +19510,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "parts:L_Changjiang_FXL0420"
 			(at 147.32 200.66 0)
 			(effects
 				(font
@@ -27419,7 +27419,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "parts:WQFN-14-1EP_2.5x2.5mm_P0.5mm_EP1.4x1.4mm"
 			(at 88.9 151.13 0)
 			(effects
 				(font
@@ -29401,7 +29401,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "parts:QFN-40-1EP_5x5mm_P0.4mm_EP3.7x3.7mm"
 			(at 74.93 132.588 0)
 			(effects
 				(font
