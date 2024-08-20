@@ -25469,7 +25469,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "parts:RJ45_Hanrun_HR911130C"
 			(at 224.79 215.9 0)
 			(effects
 				(font
