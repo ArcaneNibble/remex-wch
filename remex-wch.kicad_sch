@@ -5464,6 +5464,190 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Oscillator:Si5351A-B-GT"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -11389,6 +11573,12 @@
 		(uuid "2c2a1f4f-118a-4dc8-b6be-4eb7e21e68cf")
 	)
 	(junction
+		(at 355.6 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2fee3cd2-4450-4650-9265-4e9608b983a8")
+	)
+	(junction
 		(at 238.76 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11465,6 +11655,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "57395928-96fd-47a5-a779-c1e965523cdc")
+	)
+	(junction
+		(at 355.6 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60e9a928-97c6-4041-b009-45380d0a7632")
 	)
 	(junction
 		(at 360.68 99.06)
@@ -12525,6 +12721,16 @@
 			(type default)
 		)
 		(uuid "3238eeb4-fdec-44f4-87e5-4192ed3ecb26")
+	)
+	(wire
+		(pts
+			(xy 355.6 20.32) (xy 368.3 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32400315-4f54-4ac2-b5ac-398177bae900")
 	)
 	(wire
 		(pts
@@ -14785,6 +14991,16 @@
 			(type default)
 		)
 		(uuid "e4752443-5dad-408b-93f3-321cb6ceeb7b")
+	)
+	(wire
+		(pts
+			(xy 355.6 25.4) (xy 368.3 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5f983ec-aecb-4d34-b1c0-b41ae2152594")
 	)
 	(wire
 		(pts
@@ -17466,6 +17682,71 @@
 			(project "remex-wch"
 				(path "/7d32bce9-f080-4919-9f98-0650ab404c15"
 					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 190.5 101.6 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09330296-090a-4da8-aed1-7e3d65b95298")
+		(property "Reference" "H2"
+			(at 193.04 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 193.04 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 190.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 190.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "remex-wch"
+				(path "/7d32bce9-f080-4919-9f98-0650ab404c15"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -22344,6 +22625,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 204.47 101.6 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51a9fa4f-8b87-4bb3-bf33-41e01a0d67a3")
+		(property "Reference" "H4"
+			(at 203.2 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 203.2 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad"
+			(at 204.47 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 204.47 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a72f613-6c0e-469d-9d73-fdd794ffe6d8")
+		)
+		(instances
+			(project "remex-wch"
+				(path "/7d32bce9-f080-4919-9f98-0650ab404c15"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 63.5 246.38 0)
 		(unit 1)
@@ -24488,6 +24835,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 207.01 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b10e4b7-009d-447c-921a-8facaf95cbe0")
+		(property "Reference" "#PWR091"
+			(at 207.01 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 207.01 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 207.01 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f871123-32dd-4771-8d46-d4583f6c80c2")
+		)
+		(instances
+			(project "remex-wch"
+				(path "/7d32bce9-f080-4919-9f98-0650ab404c15"
+					(reference "#PWR091")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 403.86 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25989,6 +26402,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 204.47 88.9 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ace8ce7-dc46-4cba-b8ef-5d7ba6f3d66f")
+		(property "Reference" "H3"
+			(at 203.2 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 203.2 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad"
+			(at 204.47 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 204.47 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25ab1a15-16c9-4dfb-871b-5d109718e13d")
+		)
+		(instances
+			(project "remex-wch"
+				(path "/7d32bce9-f080-4919-9f98-0650ab404c15"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 294.64 45.72 0)
 		(unit 1)
@@ -26049,6 +26528,84 @@
 			(project "remex-wch"
 				(path "/7d32bce9-f080-4919-9f98-0650ab404c15"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 393.7 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ef6633a-a175-418b-af84-65ea080d831c")
+		(property "Reference" "C30"
+			(at 396.24 34.2962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1 uF"
+			(at 396.24 36.8362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 393.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 393.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 393.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 393.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4393c8e-e74e-413d-86e1-de98f120fa59")
+		)
+		(pin "2"
+			(uuid "6a2b1ee5-d62e-40f5-b6ff-06132eb10f07")
+		)
+		(instances
+			(project "remex-wch"
+				(path "/7d32bce9-f080-4919-9f98-0650ab404c15"
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -27313,6 +27870,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 393.7 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b61c64f7-fb4b-4ca0-8457-1c4da8c748df")
+		(property "Reference" "#PWR092"
+			(at 393.7 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 393.7 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 393.7 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 393.7 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 393.7 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3bef3fb2-768c-4ea5-8109-86079ccbd02d")
+		)
+		(instances
+			(project "remex-wch"
+				(path "/7d32bce9-f080-4919-9f98-0650ab404c15"
+					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 25.4 220.98 0)
 		(mirror y)
@@ -27983,6 +28606,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 190.5 88.9 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0f2b1ba-cfd0-455e-bf9c-844dcb31d044")
+		(property "Reference" "H1"
+			(at 193.04 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 193.04 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 190.5 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 190.5 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "remex-wch"
+				(path "/7d32bce9-f080-4919-9f98-0650ab404c15"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 128.27 88.9 0)
 		(unit 1)
@@ -28062,7 +28750,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 368.3 25.4 0)
+		(at 355.6 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28071,7 +28759,7 @@
 		(fields_autoplaced yes)
 		(uuid "c78a07e4-ed5f-4460-acf3-2629a8dda9fc")
 		(property "Reference" "#PWR074"
-			(at 368.3 31.75 0)
+			(at 355.6 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28080,7 +28768,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 368.3 30.48 0)
+			(at 355.6 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28088,7 +28776,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 368.3 25.4 0)
+			(at 355.6 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28097,7 +28785,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 368.3 25.4 0)
+			(at 355.6 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28106,7 +28794,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 368.3 25.4 0)
+			(at 355.6 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28672,6 +29360,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 355.6 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d1289be0-ef4d-4207-8bf3-db57ee7494d4")
+		(property "Reference" "C29"
+			(at 358.14 21.5962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1 uF"
+			(at 358.14 24.1362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 355.6 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 355.6 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 355.6 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 355.6 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "123717e1-3645-46e8-b825-141df5cff07a")
+		)
+		(pin "2"
+			(uuid "2f9bbf51-8505-48be-8fe3-c700d015a5e9")
+		)
+		(instances
+			(project "remex-wch"
+				(path "/7d32bce9-f080-4919-9f98-0650ab404c15"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 167.64 187.96 0)
 		(unit 1)
@@ -29151,7 +29917,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 368.3 20.32 0)
+		(at 355.6 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29160,7 +29926,7 @@
 		(fields_autoplaced yes)
 		(uuid "d4d11d60-ae2c-4c01-b2f3-b7e924366343")
 		(property "Reference" "#PWR075"
-			(at 368.3 24.13 0)
+			(at 355.6 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29169,7 +29935,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 368.3 15.24 0)
+			(at 355.6 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29177,7 +29943,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 368.3 20.32 0)
+			(at 355.6 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29186,7 +29952,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 368.3 20.32 0)
+			(at 355.6 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29195,7 +29961,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 368.3 20.32 0)
+			(at 355.6 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29289,6 +30055,72 @@
 			(project "remex-wch"
 				(path "/7d32bce9-f080-4919-9f98-0650ab404c15"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 207.01 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6f4ecc9-f809-4352-b477-e043c770d86f")
+		(property "Reference" "#PWR090"
+			(at 207.01 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 207.01 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 207.01 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6b02504-57e4-4382-97b0-4887d4c67215")
+		)
+		(instances
+			(project "remex-wch"
+				(path "/7d32bce9-f080-4919-9f98-0650ab404c15"
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -30493,6 +31325,72 @@
 			(project "remex-wch"
 				(path "/7d32bce9-f080-4919-9f98-0650ab404c15"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 393.7 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f27fba40-df97-480b-b576-c48e1c2b8b16")
+		(property "Reference" "#PWR093"
+			(at 393.7 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 393.7 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 393.7 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 393.7 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 393.7 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43c0a03b-3ce0-4712-8462-93c124ff4f63")
+		)
+		(instances
+			(project "remex-wch"
+				(path "/7d32bce9-f080-4919-9f98-0650ab404c15"
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
