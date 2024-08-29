@@ -25952,7 +25952,7 @@
 				)
 			)
 		)
-		(property "Value" "Micro_SD_Card_Det1"
+		(property "Value" "uSD SHOU HAN"
 			(at 366.395 194.31 0)
 			(effects
 				(font
@@ -26460,7 +26460,7 @@
 				)
 			)
 		)
-		(property "Value" "LW52xxN11E"
+		(property "Value" "LW5233N11E"
 			(at 154.94 127 0)
 			(effects
 				(font
