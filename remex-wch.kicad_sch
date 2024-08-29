@@ -18727,7 +18727,7 @@
 				)
 			)
 		)
-		(property "Value" "25 MHz 10 pF X322525MOB4SI"
+		(property "Value" "25 MHz 10 pF X322525MMB4SI"
 			(at 35.306 92.202 90)
 			(effects
 				(font
@@ -18762,7 +18762,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C9006"
+		(property "LCSC" "C70582"
 			(at 53.34 93.98 90)
 			(effects
 				(font

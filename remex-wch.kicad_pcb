@@ -20281,7 +20281,7 @@
 				)
 			)
 		)
-		(property "Value" "25 MHz 10 pF X322525MOB4SI"
+		(property "Value" "25 MHz 10 pF X322525MMB4SI"
 			(at 0.3 2 180)
 			(layer "F.Fab")
 			(uuid "4c3da91a-2f17-4f2c-9a86-12b600c15cac")
@@ -20329,7 +20329,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C9006"
+		(property "LCSC" "C70582"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
