@@ -22679,7 +22679,7 @@
 				)
 			)
 		)
-		(property "Value" "SolderJumper_2_Bridged"
+		(property "Value" "VBAT"
 			(at 331.47 21.59 0)
 			(effects
 				(font
