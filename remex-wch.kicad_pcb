@@ -28444,6 +28444,171 @@
 			(justify bottom)
 		)
 	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "9df351a5-f3b3-4a24-bc06-23a35c61253f")
+		(pts
+			(xy 49.53 130.81) (xy 49.53 153.67)
+		)
+		(height 24.13)
+		(gr_text "0.9000 in"
+			(at 24.25 142.24 90)
+			(layer "Dwgs.User")
+			(uuid "9df351a5-f3b3-4a24-bc06-23a35c61253f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 0)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "a74242c5-134a-4cd2-9891-2c1b078ec9fe")
+		(pts
+			(xy 44.45 142.24) (xy 128.27 142.24)
+		)
+		(height -27.94)
+		(gr_text "3.3000 in"
+			(at 86.36 113.15 0)
+			(layer "Dwgs.User")
+			(uuid "a74242c5-134a-4cd2-9891-2c1b078ec9fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 0)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Cmts.User")
+		(uuid "601fe3da-b26b-48b4-9339-9a036fdf450f")
+		(pts
+			(xy 55.245 135.89) (xy 44.45 135.89)
+		)
+		(height 8.889999)
+		(gr_text "0.4250 in"
+			(at 49.8475 125.850001 0)
+			(layer "Cmts.User")
+			(uuid "601fe3da-b26b-48b4-9339-9a036fdf450f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 0)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Cmts.User")
+		(uuid "e370898a-5670-41cf-82e5-981ed685f8ca")
+		(pts
+			(xy 60.96 132.08) (xy 44.45 132.08)
+		)
+		(height 7.62)
+		(gr_text "0.6500 in"
+			(at 52.705 123.31 0)
+			(layer "Cmts.User")
+			(uuid "e370898a-5670-41cf-82e5-981ed685f8ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 0)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Cmts.User")
+		(uuid "e521f758-7cbf-4268-97a3-7e2fe45bb8ba")
+		(pts
+			(xy 50.8 152.4) (xy 44.45 152.4)
+		)
+		(height -6.35)
+		(gr_text "0.2500 in"
+			(at 47.625 160.02 0)
+			(layer "Cmts.User")
+			(uuid "e521f758-7cbf-4268-97a3-7e2fe45bb8ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 0)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 2)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
 	(segment
 		(start 88.98 147.83)
 		(end 88.8 147.65)
