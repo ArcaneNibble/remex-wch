@@ -28432,6 +28432,18 @@
 			(justify left mirror)
 		)
 	)
+	(gr_text "RESET"
+		(at 93.5 134.5 90)
+		(layer "F.SilkS")
+		(uuid "9c196910-40d2-4c03-b820-974a5a84867e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+			(justify bottom)
+		)
+	)
 	(segment
 		(start 88.98 147.83)
 		(end 88.8 147.65)
